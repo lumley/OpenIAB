@@ -1,4 +1,8 @@
-**Please consider trying out [OPFIab](https://github.com/onepf/OPFIab) as it's intended to replace OpenIAB. Library is still in development, but your feedback might be extremely usefull.**  
+This is a cloned repository from [OpenIAB](https://github.com/onepf/OpenIAB). Master branch is just a clone of the current version (as of writing this, 0.9.8.7). Checkout  [developer](https://github.com/lumley/OpenIAB/tree/developer) branch for the following:
+ * a working implementation for [Cafe Bazaar]()
+ * a way to track the currency of a purchase for Amazon store
+
+** Original readme**
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Open%20In--App%20Billing-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/383)
 
@@ -20,25 +24,6 @@ OpenIAB supports the following stores:
 For detailed instructions, please visit [our wiki](https://github.com/onepf/OpenIAB/wiki). 
 Contact akarimova@onepf.org if you have any business comments or questions about the library.
 
-##Rules for bug reports
-
-1. Do not write directly to the team members.
-2. Check [FAQ](https://github.com/onepf/OpenIAB/wiki/FAQ) for your question/issue.
-3. Choose a correct queue of issues 
- * https://github.com/onepf/OpenIAB-Unity-Plugin/issues for Unity devs
- * https://github.com/onepf/OpenIAB/issues for Android Java devs
- * https://github.com/onepf/OpenIAB-Cordova-Plugin/issues for Cordova devs
- * https://github.com/onepf/OpenIAB-Marmalade-Plugi/issues for Marmalade devs
-4. Give details. As many as possible but DO NOT SHARE YOUR PUBLIC KEY for in-app verification.  
-The following details could be really helpful:
-
-* OS. Could be Android, iOS, WP 
-* Package. Could be native OpenIAB jar, Unity plugin, Cordove plugin or Marmalade plugin.
-* Version of the library, e.g. 0.9.8.6
-* Affected stores
-* Logs
-* Screenshots
-
 ## License
 
     Copyright 2012-2015 One Platform Foundation
@@ -55,5 +40,3 @@ The following details could be really helpful:
     See the License for the specific language governing permissions and
     limitations under the License.
  
-
-
